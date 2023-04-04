@@ -4,5 +4,3 @@
 	},
 	"include": ["src"]
 }
-
-// This helps us have absolute imports starting from the src directory
