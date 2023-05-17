@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import { configureStore } from '@reduxjs/toolkit';
 // globaReducer is an alias for globalSlice. We could name it anything since its a default export.
-import globalReducer from 'state'; // The jsconfig allows us to use 'state' instead of './state'. This is called absolute path
+import globalReducer from 'state'; // The jsconfig allows us to use 'state' instead of './state'. This is called relative path ie
+// without the './'. with the './' its called absolute path
 import { Provider } from 'react-redux';
 
 const store = configureStore({

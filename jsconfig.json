@@ -4,3 +4,5 @@
 	},
 	"include": ["src"]
 }
+
+// This allows us to have relative path
