@@ -96,7 +96,7 @@ const listItems = [
 
 const Sidebar = ({
 	drawerWidth,
-	isSidebarOpen,
+	isSideBarOpen,
 	setIsSideBarOpen,
 	isNonMobile,
 }) => {
@@ -111,10 +111,10 @@ const Sidebar = ({
 	}, [pathname]);
 	return (
 		<Box component="nav">
-			{isSidebarOpen && (
+			{isSideBarOpen && (
 				<Drawer
-					open={isSidebarOpen}
-					onClose={() => setIsSideBarOpen(!isSidebarOpen)}
+					open={isSideBarOpen}
+					onClose={() => setIsSideBarOpen(!isSideBarOpen)}
 					variant="persistent"
 					anchor="left"
 					sx={{
@@ -136,7 +136,7 @@ const Sidebar = ({
 									</Typography>
 								</Box>
 								{!isNonMobile && (
-									<IconButton onClick={() => setIsSideBarOpen(!isSidebarOpen)}>
+									<IconButton onClick={() => setIsSideBarOpen(!isSideBarOpen)}>
 										<ChevronLeft />
 									</IconButton>
 								)}
