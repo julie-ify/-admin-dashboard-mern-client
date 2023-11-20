@@ -2,6 +2,8 @@
 
 A full stack admin dashboard for managing JulCommerce which is an e-commerce store
 
+Link to the backend repo `https://github.com/julie-ify/admin-dashboard-mern-backend`
+
 ### The challenge
 
 admin should be able to:
