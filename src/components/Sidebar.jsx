@@ -107,7 +107,7 @@ const Sidebar = ({
 
 	useEffect(() => {
 		setActive(pathname.substring(1));
-		// console.log('j', pathname.substring(0))
+		// I used substing(1) so that if the pathname is /dashboard, substring(1) returns 'dashboard'
 	}, [pathname]);
 	return (
 		<Box component="nav">
@@ -132,7 +132,7 @@ const Sidebar = ({
 							<FlexBetween color={theme.palette.secondary.main}>
 								<Box display={'flex'} alignItems={'center'} gap={'0.5rem'}>
 									<Typography variant="h4" fontWeight={'bold'}>
-										JULIANA
+										JCOMVISION
 									</Typography>
 								</Box>
 								{!isNonMobile && (

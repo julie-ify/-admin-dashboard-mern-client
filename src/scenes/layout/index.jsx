@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Box, useMediaQuery } from '@mui/material';
-import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom'; // Outlet allows us to have a parent component and it's children
+// Allowing us to use Router to navigate through different path rendering different components but still inside the parent
+// This is handy when we want to have a sidebar and navbar on all our pages.
 import { useSelector } from 'react-redux';
 import Navbar from 'components/Navbar';
 import Sidebar from 'components/Sidebar';
